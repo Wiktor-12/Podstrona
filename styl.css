@@ -1,0 +1,72 @@
+html{
+  background: linear-gradient(180deg, orange, rgb(236,188,29), yellow 55% );
+    scroll-behavior: smooth;
+}
+header{
+  background: 5vw;
+  background-color:rgb(47, 47, 47);
+  margin-top: -1.1vw;
+  margin-left: -0.40vw;
+  margin-right: -0.40vw;
+  height: 11vw;
+  text-align: center;
+  font-size: 1.1vw;
+  color: #8b8b8b;
+  transition: all 0.50s ease-in;
+  font-family:Arial;
+  
+}
+header:hover{
+    height: 13vw;
+    font-size: 1.4vw;
+    transition: all 0.40s ease-in;
+    color:white;
+    image-orientation: 1vw;
+    
+}
+header > #img1:hover{
+  transition: all 0.50s ease-in;
+  weight:10vw;
+  height:10vw;
+
+}
+
+main{
+    margin-top: -2vw;
+    font-size: 1vw;
+    font-family: system-ui, sans-serif;
+    padding-bottom: 100%;
+    width: 1300px;
+    margin-left: 2vw;
+    text-align: justify;
+    float: left;
+
+}
+#img1{
+
+    width:9vw;
+    height: auto;
+    margin-top: 0.7vw;
+    top: 0;
+    right: 0;
+    left: 1vw;
+    right:1665px;
+    position:absolute;
+    margin-left:0;
+    margin-right:auto;
+    text-align:left;
+    transition: all 0.27s ease-in;
+}
+#img1:hover{
+    width: 9.70vw;
+    background-color: transparent;
+    transition: all 0.4s ease-in;
+}
+  footer {
+    grid-column: 1 / 3;
+    background: #6b6b6b;
+    padding: 2vw;
+    position: sticky;
+    margin-bottom: 0%;
+    clear: both;
+  }
