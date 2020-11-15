@@ -19,25 +19,43 @@ header{
 header:hover{
     height: 13vw;
     font-size: 1.4vw;
-    transition: all 0.40s ease-in;
+    transition: all 0.27s ease-in;
     color:white;
     image-orientation: 1vw;
     
 }
 header > #img1:hover{
-  transition: all 0.50s ease-in;
+  transition: all 0.27s ease-in;
   weight:10vw;
   height:10vw;
 
 }
+nav {
+  width: 10.2vw;
+  height:100vw;
+  white-space: nowrap;
+  background:rgb(47, 47, 47);
+  transition: all 0.20s ease-in;
+  font-size: 1vw;
+  float: left;
+  position: sticky;
+  margin-left: -0.4vw;
+  text-align: left 2vw;
+}
+nav:hover {
+  font-size: 1.3vw;
+  white-space: nowrap;
+  width: 12vw;
+  transition: all 0.27s ease-in;
+}
 
 main{
-    margin-top: -2vw;
+    margin-top: -5vw;
     font-size: 1vw;
     font-family: system-ui, sans-serif;
     padding-bottom: 100%;
     width: 1300px;
-    margin-left: 2vw;
+    margin-left: ;
     text-align: justify;
     float: left;
 
